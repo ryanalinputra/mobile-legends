@@ -9,6 +9,10 @@ body {
     font-family: "Helvetica Neue";
 }
 
+body::-webkit-scrollbar {
+    display: none;
+}
+
 body p {
     color: #ABCDFE;
     margin-left: 70px ;

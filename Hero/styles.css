@@ -1,0 +1,48 @@
+header {
+    background-color: #0F1320;
+    width: 100%;
+}
+
+body {
+    background-color: #151D30;
+    margin: 0;
+    font-family: "Helvetica Neue";
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body p {
+    color: #ABCDFE;
+    margin-left: 70px ;
+    margin-right: 25% ;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-menu li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    position: relative;
+}
+
+.navbar-logo img.logo {
+    width: 170px;
+    height: auto;
+
+}
