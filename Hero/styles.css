@@ -46,3 +46,45 @@ body p {
     height: auto;
 
 }
+
+.all {
+    background-color: #151D30;
+    width: 100%;
+}
+
+.garis1 {
+    background-color: #6F78A7;
+    width: 35%;
+    height: 3px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+.slide-kiri {
+    margin-left: 40px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 330px;
+    position: static;
+    display: inline-block;
+}
+
+.slide-kanan {
+    margin-right: 40px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 330px;
+    position: static;
+    display: inline-block;
+}
+
+.slide-tengah {
+    width: 200px;
+    height: 330px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    position: static;
+    display: inline-block;
+}
+

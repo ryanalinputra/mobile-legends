@@ -13,12 +13,6 @@ body::-webkit-scrollbar {
     display: none;
 }
 
-body p {
-    color: #ABCDFE;
-    margin-left: 70px ;
-    margin-right: 25% ;
-}
-
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -56,34 +50,26 @@ body h2.tentang {
 body h2 {
     padding-left: 70px;
     color: #999999;
+    margin-bottom: 7px;
 }
 
-.garis1 {
-    background-color: #6F78A7;
-    width: 70%;
-    height: 2px;
-    margin-left: 70px;
+body p {
+    color: #ABCDFE;
+    margin-left: 70px ;
+    margin-right: 25% ;
 }
 
-.garis2{
-    background-color: #6F78A7;
-    width: 70%;
-    height: 3px;
-    margin-left: 70px;
-   
-}
-
-.garis3 {
+.garis1, .garis2, .garis3, .garis4 {
     background-color: #6F78A7;
     width: 70%;
     height: 3px;
     margin-left: 70px;
-   
 }
 
-.garis4 {
-    background-color: #6F78A7;
-    width: 70%;
-    height: 3px;
-    margin-left: 70px;
+.p1, .p2, .p3, .p4 {
+    margin-bottom: 40px;
+}
+
+ /* {
+    border: 1px solid red;
 }
