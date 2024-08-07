@@ -6,7 +6,8 @@ header {
 body {
     background-color: #151D30;
     margin: 0;
-    font-family: "Helvetica Neue";
+    font-family: Arial, Helvetica, sans-serif;
+    /*font-family: "Helvetica Neue";*/
 }
 
 body::-webkit-scrollbar {
@@ -54,7 +55,7 @@ body p {
 
 .garis1 {
     background-color: #6F78A7;
-    width: 35%;
+    width: 37%;
     height: 3px;
     margin-left: 40px;
     margin-bottom: 10px;
@@ -70,7 +71,7 @@ body p {
 }
 
 .slide-kanan {
-    margin-right: 40px;
+    margin-right: 35px;
     margin-left: 5px;
     margin-bottom: 10px;
     width: 200px;
@@ -88,3 +89,82 @@ body p {
     display: inline-block;
 }
 
+
+/*        All         */
+
+.nama {
+    color: rgb(243,250,255);
+    position: absolute;
+    display: inline-block;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.nama-1 {
+    margin-left: 105px;
+    margin-top: -60px;
+}
+
+.nama-2 {
+    margin-left: 329px;
+    margin-top: -45px;
+}
+
+.nama-3 {
+    margin-left: 540px;
+    margin-top: -45px;
+}
+
+.nama-4 {
+    margin-left: 735px;
+    margin-top: -47px;
+}
+
+.nama-5 {
+    margin-left: 960px;
+    margin-top: -47px;
+}
+
+.nama-6 {
+    margin-left: 1160px;
+    margin-top: -48px;
+}
+
+.nama-7 {
+    margin-left: 1365px;
+    margin-top: -47px;
+}
+
+.nama-1-2 {
+    margin-left: 105px;
+    margin-top: -60px;
+}
+
+.nama-2-2 {
+    margin-left: 329px;
+    margin-top: -45px;
+}
+
+.nama-3-2 {
+    margin-left: 540px;
+    margin-top: -45px;
+}
+
+.nama-4-2 {
+    margin-left: 735px;
+    margin-top: -47px;
+}
+
+.nama-5-2 {
+    margin-left: 960px;
+    margin-top: -47px;
+}
+
+.nama-6-2 {
+    margin-left: 1160px;
+    margin-top: -48px;
+}
+
+.nama-7-2 {
+    margin-left: 1365px;
+    margin-top: -47px;
+}
