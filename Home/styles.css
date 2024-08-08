@@ -19,6 +19,11 @@ body p {
     margin-right: 25% ;
 }
 
+.navbar-all {
+    position: fixed;
+    top: 0;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;

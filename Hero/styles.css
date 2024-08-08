@@ -19,6 +19,18 @@ body p {
     margin-right: 25% ;
 }
 
+.navbar-all {
+    position: fixed;
+    top: 0;
+}
+
+.all {
+    background-color: #151D30;
+    width: 100%;
+    position: fixed;
+    top: 96px;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -47,17 +59,16 @@ body p {
 
 }
 
-.all {
-    background-color: #151D30;
-    width: 100%;
-}
-
 .garis1 {
     background-color: #6F78A7;
     width: 37%;
     height: 3px;
     margin-left: 40px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.kosong {
+    margin-top: 150px;
 }
 
 .slide-kiri {
@@ -154,16 +165,194 @@ body p {
 }
 
 .nama-5-2 {
-    margin-left: 960px;
+    margin-left: 945px;
     margin-top: -47px;
 }
 
 .nama-6-2 {
-    margin-left: 1160px;
+    margin-left: 1170px;
     margin-top: -48px;
 }
 
 .nama-7-2 {
     margin-left: 1365px;
     margin-top: -47px;
+}
+
+.nama-1-3 {
+    margin-left: 110px;
+    margin-top: -60px;
+}
+
+.nama-2-3 {
+    margin-left: 299px;
+    margin-top: -45px;
+}
+
+.nama-3-3 {
+    margin-left: 526px;
+    margin-top: -47px;
+}
+
+.nama-4-3 {
+    margin-left: 740px;
+    margin-top: -47px;
+}
+
+.nama-5-3 {
+    margin-left: 953px;
+    margin-top: -47px;
+}
+
+.nama-6-3 {
+    margin-left: 1143px;
+    margin-top: -48px;
+}
+
+.nama-7-3 {
+    margin-left: 1362px;
+    margin-top: -47px;
+}
+
+/*        Tank         */
+
+.tank-1 {
+    margin-left: 115px;
+    margin-top: -60px;
+
+}
+
+.tank-2 {
+    margin-left: 318px;
+    margin-top: -45px;
+}
+
+/*        Fighter         */
+
+.fighter-1 {
+    margin-left: 105px;
+    margin-top: -60px;
+}
+
+.fighter-2 {
+    margin-left: 329px;
+    margin-top: -45px;
+}
+
+.fighter-3 {
+    margin-left: 540px;
+    margin-top: -45px;
+}
+
+.fighter-4 {
+    margin-left: 735px;
+    margin-top: -47px;
+}
+
+.fighter-5 {
+    margin-left: 960px;
+    margin-top: -47px;
+}
+
+.fighter-6 {
+    margin-left: 1160px;
+    margin-top: -48px;
+}
+
+.fighter-7 {
+    margin-left: 1365px;
+    margin-top: -47px;
+}
+
+/*        Assasin         */
+
+.assasin-1 {
+    margin-left: 105px;
+    margin-top: -60px;
+}
+
+.assasin-2 {
+    margin-left: 329px;
+    margin-top: -45px;
+}
+
+.assasin-3 {
+    margin-left: 540px;
+    margin-top: -45px;
+}
+
+.assasin-4 {
+    margin-left: 735px;
+    margin-top: -47px;
+}
+
+.assasin-5 {
+    margin-left: 960px;
+    margin-top: -47px;
+}
+
+/*        Mage         */
+
+.mage-1 {
+    margin-left: 105px;
+    margin-top: -60px;
+}
+
+.mage-2 {
+    margin-left: 329px;
+    margin-top: -45px;
+}
+
+.mage-3 {
+    margin-left: 540px;
+    margin-top: -45px;
+}
+
+.mage-4 {
+    margin-left: 735px;
+    margin-top: -47px;
+}
+
+.mage-5 {
+    margin-left: 960px;
+    margin-top: -47px;
+}
+
+/*        Marksman        */
+
+.marksman-1 {
+    margin-left: 105px;
+    margin-top: -60px;
+}
+
+.marksman-2 {
+    margin-left: 329px;
+    margin-top: -45px;
+}
+
+.marksman-3 {
+    margin-left: 540px;
+    margin-top: -45px;
+}
+
+.marksman-4 {
+    margin-left: 735px;
+    margin-top: -47px;
+}
+
+.marksman-5 {
+    margin-left: 960px;
+    margin-top: -47px;
+}
+
+/*        Support        */
+
+.support-1 {
+    margin-left: 105px;
+    margin-top: -60px;
+}
+
+.support-2 {
+    margin-left: 329px;
+    margin-top: -45px;
 }
