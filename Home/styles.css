@@ -105,17 +105,100 @@ body p {
 
 .utama-2 {
     display: flex;
-    margin: -195px 0px 0px 864px;
+    margin: -192px 0px 0px 864px;
     z-index: 1;
 }
 
-.p {
-    margin-top: 1000px;
-    color: white;
+.text-utama2 {
+    display: flex;
+    position: absolute;
+    width: 25%;
+    height: 10%;
+    flex-direction: column;
+    margin: -260px 10px 10px 925px;
+    z-index: 2;
+}
+
+.text-utama2-1 {
+    color: #D2E8F9;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 0 0 0 18px ;
+}
+
+.text-utama2-2 {
+    color: #95BBFF;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.text-utama3 {
+    display: flex;
+    position: absolute;
+    width: 25%;
+    height: 10%;
+    flex-direction: column;
+    margin: -260px 10px 10px 1260px;
+    z-index: 2;
+}
+
+.text-utama3-1 {
+    color: #D2E8F9;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 0 0 0 50px ;
+}
+
+.text-utama3-2 {
+    color: #95BBFF;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.text-utama4 {
+    display: flex;
+    position: absolute;
+    width: 25%;
+    height: 10%;
+    flex-direction: column;
+    margin: -65px 10px 10px 930px;
+    z-index: 2;
+}
+
+.text-utama4-1 {
+    color: #D2E8F9;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 0 0 0 50px ;
+}
+
+.text-utama4-2 {
+    color: #95BBFF;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.text-utama5 {
+    display: flex;
+    position: absolute;
+    width: 25%;
+    height: 10%;
+    flex-direction: column;
+    margin: -65px 10px 10px 1280px;
+    z-index: 2;
+}
+
+.text-utama5-1 {
+    color: #D2E8F9;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 0 0 0 30px ;
+}
+
+.text-utama5-2 {
+    color: #95BBFF;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .news {
-    margin: 30px 10px 10px 30px;
+    margin: 50px 10px 10px 30px;
     background-color: #21344B;
     border-left: 3px solid #5F7AC2;
     width: 300px;
@@ -174,46 +257,135 @@ body p {
 
 .patch-kotak-text1 {
     color: #A3B6ED;
-    padding: 30px 2px 2px 2px;
+    padding: 43px 2px 2px 2px;
     font-family:'Times New Roman', Times, serif;
-    margin-left: 240px;
+    margin-left: 230px;
     position: absolute;
 }
 
 .patch-kotak1 {
     border: 1px solid #ABCDFE;
     background-color: #364373;
-    margin: 37px 1184px 10px 230px;
+    margin: 50px 1184px 10px 220px;
     width: 138px;
     height: 25px;
 }
 
-.eye {
+.eye-kiri {
     width: 22px;
     height: auto;
     position: absolute;
-    margin-top: -16px;
-    left: 520px;
+    margin-top: -23px;
+    left: 510px;
 }
 
-.angka1 {
+.angka1-kiri {
     color: #5E83A3;
     position: absolute;
-    margin-top: -17px;
+    margin-top: -23px;
     font-weight: 10;
-    left: 550px;
+    left: 540px;
 }
 
-.angka2 {
+.angka2-kiri {
     color: #5E83A3;
     position: absolute;
-    margin-top: -17px;
+    margin-top: -23px;
     font-weight: 10;
-    left: 610px;
+    left: 600px;
+}
+
+.eye-kanan {
+    width: 22px;
+    height: auto;
+    position: absolute;
+    margin-top: -23px;
+    right: 250px;
+}
+
+.angka1-kanan {
+    color: #5E83A3;
+    position: absolute;
+    margin-top: -23px;
+    font-weight: 10;
+    right: 200px;
+}
+
+.angka2-kanan {
+    color: #5E83A3;
+    position: absolute;
+    margin-top: -23px;
+    font-weight: 10;
+    right: 40px;
+}
+
+.patch-kotak-text1-1 {
+    color: #A3B6ED;
+    padding: 13px 2px 2px 2px;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 230px;
+    position: absolute;
+}
+
+.patch-kotak1-1 {
+    border: 1px solid #ABCDFE;
+    background-color: #364373;
+    margin: 20px 1184px 10px 220px;
+    width: 138px;
+    height: 25px;
+}
+
+
+.eye-kiri-1 {
+    width: 22px;
+    height: auto;
+    position: absolute;
+    margin-top: -23px;
+    left: 510px;
+}
+
+.angka1-kiri-1 {
+    color: #5E83A3;
+    position: absolute;
+    margin-top: -23px;
+    font-weight: 10;
+    left: 540px;
+}
+
+.angka2-kiri-1 {
+    color: #5E83A3;
+    position: absolute;
+    margin-top: -23px;
+    font-weight: 10;
+    left: 600px;
+}
+
+.eye-kanan-2 {
+    width: 22px;
+    height: auto;
+    position: absolute;
+    margin-top: -23px;
+    right: 250px;
+}
+
+.angka1-kanan-2 {
+    color: #5E83A3;
+    position: absolute;
+    margin-top: -23px;
+    font-weight: 10;
+    right: 200px;
+}
+
+.angka2-kanan-2 {
+    color: #5E83A3;
+    position: absolute;
+    margin-top: -23px;
+    font-weight: 10;
+    right: 40px;
 }
 
 .videos {
-    margin: 30px 10px 10px 30px;
+    margin: 40px 10px 20px 30px;
     background-color: #21344B;
     border-left: 3px solid #5F7AC2;
     width: 300px;
@@ -235,19 +407,21 @@ body p {
 }
 
 .videos-1 {
-    width: 450px;
-    height: 330px;
+    width: 465px;
+    height: 340px;
     display: flex;
     flex-direction: column;
     margin: 10px 10px 10px 30px;
+    background-color: #384465;
 }
 
 .videos1 {
     width: 100%;
     height: 100%;
+    padding: 2px;
 }
 
 .videos1-text {
     color: #ABCDFE;
-    padding: 10px 30px 10px 30px;
+    padding: 10px 10px 10px 10px;
 }
