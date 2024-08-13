@@ -22,6 +22,7 @@ body p {
 .navbar-all {
     position: fixed;
     top: 0;
+    z-index: 3;
 }
 
 .all {
@@ -29,6 +30,7 @@ body p {
     width: 100%;
     position: fixed;
     top: 96px;
+    z-index: 3;
 }
 
 .navbar {

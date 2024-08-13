@@ -3,7 +3,7 @@ header {
     width: 100%;
 }
 
-body {
+.semua {
     background-color: #151D30;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif; 
@@ -19,26 +19,27 @@ body p {
     margin-right: 25% ;
 }
 
-.navbar-all {
+.navbar-all1 {
     position: fixed;
     top: 0;
+    z-index: 3;
 }
 
-.navbar {
+.navbar1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
 }
 
-.navbar-menu {
+.navbar-menu1 {
     list-style: none;
     display: flex;
     margin: 0;
     padding: 0;
 }
 
-.navbar-menu li a {
+.navbar-menu1 li a {
     text-decoration: none;
     color: #ffffff;
     font-weight: bold;
@@ -46,8 +47,207 @@ body p {
     position: relative;
 }
 
-.navbar-logo img.logo {
+.navbar-logo1 img.logo {
     width: 170px;
     height: auto;
 
+}
+
+.utama-1{
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 1;
+    /* border: 5px solid red; */
+}
+
+.utama1 {
+    height: 53%;
+    width: 53%;
+    margin: 80px 10px 10px 30px;
+    flex-shrink: 0;
+
+}
+
+.utama2 {
+    margin: 80px 25px 10px 10px;
+}
+
+.utama3 {
+    margin: 80px 10px 10px 3px;
+}
+
+.utama4 {
+    margin-right: 28px;
+}
+
+.utama3-img {
+    height: auto;
+    width:305px;
+}
+
+.utama2-img {
+    height: auto;
+    width:305px;
+}
+
+.utama4-img {
+    height: auto;
+    width:305px;
+}
+
+.utama5-img {
+    height: auto;
+    width:305px;
+}
+
+.utama-2 {
+    display: flex;
+    margin: -195px 0px 0px 864px;
+    z-index: 1;
+}
+
+.p {
+    margin-top: 1000px;
+    color: white;
+}
+
+.news {
+    margin: 30px 10px 10px 30px;
+    background-color: #21344B;
+    border-left: 3px solid #5F7AC2;
+    width: 300px;
+    height: 50px;
+}
+
+.news-img {
+    padding: 10px 10px 10px 10px;
+}
+
+.news-text {
+    color: #ABCDFE;
+    margin: -37px 10px 10px 55px;
+}
+
+.patch-utama {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.patch1 {
+    background-color: #2C3756;
+    /* margin: 0 20px 10px 20px; */
+    border: 3px solid #364365;
+    width: 100%;
+    height: 100%;
+}
+
+.patch-kiri {
+    margin: 20px 10px 15px 28px;
+    /* border: 5px solid red; */
+    width: 48%;
+    height: 48%;
+}
+
+.patch-kanan {
+    margin: 20px 15px 15px 0;
+    /* border: 5px solid red; */
+    width: 48%;
+    height: 48%;
+}
+.patch1906 {
+    padding: 8px 8px 8px 8px;
+    width: 200px;
+    height: auto;
+   
+}
+
+.patch1906-text {
+    color: #ABCDFE;
+    margin-top: -115px;
+    margin-left: 220px ;
+    font-weight: 10;
+}
+
+.patch-kotak-text1 {
+    color: #A3B6ED;
+    padding: 30px 2px 2px 2px;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 240px;
+    position: absolute;
+}
+
+.patch-kotak1 {
+    border: 1px solid #ABCDFE;
+    background-color: #364373;
+    margin: 37px 1184px 10px 230px;
+    width: 138px;
+    height: 25px;
+}
+
+.eye {
+    width: 22px;
+    height: auto;
+    position: absolute;
+    margin-top: -16px;
+    left: 520px;
+}
+
+.angka1 {
+    color: #5E83A3;
+    position: absolute;
+    margin-top: -17px;
+    font-weight: 10;
+    left: 550px;
+}
+
+.angka2 {
+    color: #5E83A3;
+    position: absolute;
+    margin-top: -17px;
+    font-weight: 10;
+    left: 610px;
+}
+
+.videos {
+    margin: 30px 10px 10px 30px;
+    background-color: #21344B;
+    border-left: 3px solid #5F7AC2;
+    width: 300px;
+    height: 50px;
+}
+
+.videos-utama {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.videos-img {
+    padding: 10px 10px 10px 10px;
+}
+
+.videos-text {
+    color: #ABCDFE;
+    margin: -35px 10px 10px 55px;
+}
+
+.videos-1 {
+    width: 450px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 10px 30px;
+}
+
+.videos1 {
+    width: 100%;
+    height: 100%;
+}
+
+.videos1-text {
+    color: #ABCDFE;
+    padding: 10px 30px 10px 30px;
 }
